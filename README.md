@@ -7,7 +7,7 @@
 ---For technologies it was decided to use PostrgresSQL for our database and we will connect the database to Google Colab to run a predicted model to determine the outcome of our comparisons.
 ### Individual Branches:
 --- Joe B. - JB_dev;
-    Denis A. - sample_data; 
+    Denis A. - dang_dev; 
     Nichelle F. - Nichelle_dev; 
     Chihi U. - ML_dev_primary; 
     Courtney B. - database_dev_second
