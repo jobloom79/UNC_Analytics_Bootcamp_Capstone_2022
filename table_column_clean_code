@@ -1,0 +1,95 @@
+CREATE TABLE tick_table_2020 (
+	FIPSCode INT NOT NULL,
+	State VARCHAR NOT NULL,
+	County VARCHAR NOT NULL,
+	Ixodes_scapularis_County_Status VARCHAR NOT NULL,
+	Ixodes_scapularis_data_source VARCHAR NOT NULL,
+	Ixodes_pacificus_county_status VARCHAR NOT NULL,
+	Ixodes_pacificus_data_source VARCHAR NOT NULL
+);
+
+SELECT * FROM tick_table_2020;
+
+CREATE TABLE tick_table_2021 (
+	FIPSCode INT NOT NULL,
+	State VARCHAR NOT NULL,
+	County VARCHAR NOT NULL,
+	Ixodes_scapularis_County_Status VARCHAR NOT NULL,
+	Ixodes_scapularis_data_source VARCHAR NOT NULL,
+	Ixodes_pacificus_county_status VARCHAR NOT NULL,
+	Ixodes_pacificus_data_source VARCHAR NOT NULL
+);
+
+SELECT * FROM tick_info_2021;
+
+CREATE TABLE tick_table_2019 (
+	FIPSCode INT NOT NULL,
+	State VARCHAR NOT NULL,
+	County VARCHAR NOT NULL,
+	Ixodes_scapularis_County_Status VARCHAR NOT NULL,
+	Ixodes_scapularis_data_source VARCHAR NOT NULL,
+	Ixodes_pacificus_county_status VARCHAR NOT NULL,
+	Ixodes_pacificus_data_source VARCHAR NOT NULL
+);
+
+CREATE TABLE tick_table_2018 (
+	FIPSCode INT NOT NULL,
+	State VARCHAR NOT NULL,
+	County VARCHAR NOT NULL,
+	Ixodes_scapularis_County_Status VARCHAR NOT NULL,
+	Ixodes_scapularis_data_source VARCHAR NOT NULL,
+	Ixodes_pacificus_county_status VARCHAR NOT NULL,
+	Ixodes_pacificus_data_source VARCHAR NOT NULL
+);
+
+CREATE TABLE tick_table_2016 (
+	FIPSCode INT NOT NULL,
+	State VARCHAR NOT NULL,
+	County VARCHAR NOT NULL,
+	Ixodes_scapularis_County_Status VARCHAR NOT NULL,
+	Ixodes_scapularis_data_source VARCHAR NOT NULL,
+	Ixodes_pacificus_county_status VARCHAR NOT NULL,
+	Ixodes_pacificus_data_source VARCHAR NOT NULL
+);
+
+ALTER TABLE tick_table_2016
+	DROP COLUMN Ixodes_scapularis_data_source;
+	
+SELECT * FROM tick_table_2016;
+
+ALTER TABLE tick_table_2016
+	DROP COLUMN Ixodes_pacificus_data_source;
+	
+SELECT * FROM tick_table_2016;
+
+ALTER TABLE tick_table_2018
+	DROP COLUMN Ixodes_scapularis_data_source;
+	
+ALTER TABLE tick_table_2018
+	DROP COLUMN Ixodes_pacificus_data_source;
+	
+SELECT * FROM tick_table_2018;
+
+ALTER TABLE tick_table_2019
+	DROP COLUMN Ixodes_scapularis_data_source;
+	
+ALTER TABLE tick_table_2019
+	DROP COLUMN Ixodes_pacificus_data_source;
+	
+SELECT * FROM tick_table_2019;
+
+ALTER TABLE tick_table_2020
+	DROP COLUMN Ixodes_scapularis_data_source;
+	
+ALTER TABLE tick_table_2020
+	DROP COLUMN Ixodes_pacificus_data_source;
+	
+SELECT * FROM tick_table_2020;
+
+ALTER TABLE tick_info_2021
+	DROP COLUMN Ixodes_scapularis_data_source;
+	
+ALTER TABLE tick_info_2021
+	DROP COLUMN Ixodes_pacificus_data_source;
+	
+SELECT * FROM tick_info_2021;
