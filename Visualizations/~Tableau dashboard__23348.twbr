@@ -6499,7 +6499,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Density Map of Established Tick Records</run>
+            <run>Heat Map of Established Tick Records</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -6532,8 +6532,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Latitude (generated)]' field-type='quantitative' max='6486945.0709470129' min='2254701.8700337061' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Longitude (generated)]' field-type='quantitative' max='-6911758.3155244431' min='-14145439.584851226' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Latitude (generated)]' field-type='quantitative' max='6490742.6960049504' min='2831508.8402608926' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Longitude (generated)]' field-type='quantitative' max='-6775893.2335145148' min='-15827681.989525715' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
           </style-rule>
           <style-rule element='header'>
             <format attr='background-color' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:county:nk]' value='#e9edf5' />
@@ -6944,7 +6944,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='51'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -7001,7 +7001,7 @@
       </cards>
       <simple-id uuid='{3521A904-4485-4906-9ECB-A1BAD5969305}' />
     </window>
-    <window class='worksheet' name='Sheet 3'>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
       <cards>
         <edge name='left'>
           <strip size='160'>
