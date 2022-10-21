@@ -48,7 +48,7 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
 ### Slides
 
 --- Presentations are drafted in Google Slides.
-![Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing)
+[Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing)
 
 ### Machine Learning Model 
 - Description of preliminary data preprocessing
