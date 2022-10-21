@@ -1,0 +1,116 @@
+/* Rename Column ixodes_scapularis_county_status to add year for tick_table_2018*/
+ALTER TABLE tick_table_2018
+  RENAME COLUMN ixodes_scapularis_county_status TO ixodes_scapularis_county_status_2018;
+ 
+/* Rename Column ixodes_pacificus_county_status to add year for tick_table_2018*/
+ALTER TABLE tick_table_2018
+  RENAME COLUMN ixodes_pacificus_county_status TO ixodes_pacificus_county_status_2018;
+  
+/* Rename Column ixodes_scapularis_county_status to add year for tick_table_2016*/
+ALTER TABLE tick_table_2016
+  RENAME COLUMN ixodes_scapularis_county_status TO ixodes_scapularis_county_status_2016;
+
+/* Rename Column ixodes_pacificus_county_status to add year for tick_table_2016*/
+ALTER TABLE tick_table_2016
+  RENAME COLUMN ixodes_pacificus_county_status TO ixodes_pacificus_county_status_2016;
+
+/* Rename Column ixodes_scapularis_county_status to add year for tick_table_2019*/
+ALTER TABLE tick_table_2019
+  RENAME COLUMN ixodes_scapularis_county_status TO ixodes_scapularis_county_status_2019;
+
+/* Rename Column ixodes_pacificus_county_status to add year for tick_table_2019*/
+ALTER TABLE tick_table_2019
+  RENAME COLUMN ixodes_pacificus_county_status TO ixodes_pacificus_county_status_2019;
+
+/* Rename Column ixodes_scapularis_county_status to add year for tick_table_2020*/
+ALTER TABLE tick_table_2020
+  RENAME COLUMN ixodes_scapularis_county_status TO ixodes_scapularis_county_status_2020;
+
+/* Rename Column ixodes_pacificus_county_status to add year for tick_table_2020*/
+ALTER TABLE tick_table_2020
+  RENAME COLUMN ixodes_pacificus_county_status TO ixodes_pacificus_county_status_2020;
+
+/* Rename Column ixodes_scapularis_county_status to add year for tick_table_2021*/
+ALTER TABLE tick_table_2021
+  RENAME COLUMN ixodes_scapularis_county_status TO ixodes_scapularis_county_status_2021;
+
+/* Rename Column ixodes_pacificus_county_status to add year for tick_table_2021*/
+ALTER TABLE tick_table_2021
+  RENAME COLUMN ixodes_pacificus_county_status TO ixodes_pacificus_county_status_2021;
+
+/* Created table to test joining of the 2 tick datasets*/
+CREATE TABLE JOINED_TICK_2016_2018_test
+AS
+SELECT tick_table_2016.fipscode, tick_table_2016.state, tick_table_2016.county,tick_table_2016.ixodes_scapularis_county_status_2016, tick_table_2018.ixodes_scapularis_county_status_2018
+FROM tick_table_2016
+RIGHT OUTER JOIN tick_table_2018
+ON tick_table_2016.county = tick_table_2018.county;
+
+/* Created table to test joining of the 2 tick datasets*/
+CREATE TABLE JOINED_TICK_2016_2018_test_2
+AS
+SELECT tick_table_2016.fipscode, tick_table_2016.state, tick_table_2016.county,tick_table_2016.ixodes_scapularis_county_status_2016,tick_table_2016.ixodes_pacificus_county_status_2016,
+tick_table_2018.ixodes_scapularis_county_status_2018,tick_table_2018.ixodes_pacificus_county_status_2018
+FROM tick_table_2016
+FULL OUTER JOIN tick_table_2018
+ON tick_table_2016.county = tick_table_2018.county;
+
+SELECT * FROM JOINED_TICK_2016_2018_test_2;
+
+/* Created table to test joining of the 2 tick datasets, table selected to complete join*/
+CREATE TABLE JOINED_TICK_2016_2018_test_3
+AS
+SELECT tick_table_2016.fipscode, tick_table_2016.state, tick_table_2016.county,tick_table_2016.ixodes_scapularis_county_status_2016,tick_table_2016.ixodes_pacificus_county_status_2016,
+tick_table_2018.ixodes_scapularis_county_status_2018,tick_table_2018.ixodes_pacificus_county_status_2018
+FROM tick_table_2016
+FULL OUTER JOIN tick_table_2018
+ON tick_table_2016.fipscode = tick_table_2018.fipscode;
+
+SELECT * FROM JOINED_TICK_2016_2018_test_3;
+
+/*Renaming joined table*/
+ALTER TABLE JOINED_TICK_2016_2018_test_3
+  RENAME TO JOINED_TICK_2016_2018;
+
+/* Created table to join 2019 tick dataset to 2016 & 2018 data sets*/
+CREATE TABLE JOINED_TICK_2016_2018_2019
+AS
+SELECT joined_tick_2016_2018.fipscode, joined_tick_2016_2018.state, joined_tick_2016_2018.county,joined_tick_2016_2018.ixodes_scapularis_county_status_2016,joined_tick_2016_2018.ixodes_pacificus_county_status_2016,
+joined_tick_2016_2018.ixodes_scapularis_county_status_2018,joined_tick_2016_2018.ixodes_pacificus_county_status_2018,
+tick_table_2019.ixodes_scapularis_county_status_2019,tick_table_2019.ixodes_pacificus_county_status_2019
+FROM joined_tick_2016_2018
+FULL OUTER JOIN tick_table_2019
+ON joined_tick_2016_2018.fipscode = tick_table_2019.fipscode;
+
+/*Renaming joined table*/
+ALTER TABLE JOINED_TICK_2016_2018_test_3
+  RENAME TO JOINED_TICK_2016_2018;
+
+SELECT * FROM joined_tick_2016_2018;
+
+/*Joined 2020 tick dataset to 2016, 2018, and 2019 datasets*/
+CREATE TABLE JOINED_TICK_2016_2018_2019_2020
+AS
+SELECT joined_tick_2016_2018_2019.fipscode, joined_tick_2016_2018_2019.state, joined_tick_2016_2018_2019.county,joined_tick_2016_2018_2019.ixodes_scapularis_county_status_2016,joined_tick_2016_2018_2019.ixodes_pacificus_county_status_2016,
+joined_tick_2016_2018_2019.ixodes_scapularis_county_status_2018,joined_tick_2016_2018_2019.ixodes_pacificus_county_status_2018,
+joined_tick_2016_2018_2019.ixodes_scapularis_county_status_2019,joined_tick_2016_2018_2019.ixodes_pacificus_county_status_2019,
+tick_table_2020.ixodes_scapularis_county_status_2020,tick_table_2020.ixodes_pacificus_county_status_2020
+FROM joined_tick_2016_2018_2019
+FULL OUTER JOIN tick_table_2020
+ON joined_tick_2016_2018_2019.fipscode = tick_table_2020.fipscode;
+
+/*Joined 2021 tick dataset to 2016, 2018, 2019, 2020 datasets*/
+CREATE TABLE JOINED_TICK_2016_2018_2019_2020_2021
+AS
+SELECT JOINED_TICK_2016_2018_2019_2020.fipscode, JOINED_TICK_2016_2018_2019_2020.state, joined_tick_2016_2018_2019_2020.county,joined_tick_2016_2018_2019_2020.ixodes_scapularis_county_status_2016,joined_tick_2016_2018_2019_2020.ixodes_pacificus_county_status_2016,
+joined_tick_2016_2018_2019_2020.ixodes_scapularis_county_status_2018,joined_tick_2016_2018_2019_2020.ixodes_pacificus_county_status_2018,
+joined_tick_2016_2018_2019_2020.ixodes_scapularis_county_status_2019,joined_tick_2016_2018_2019_2020.ixodes_pacificus_county_status_2019,
+joined_tick_2016_2018_2019_2020.ixodes_scapularis_county_status_2020,joined_tick_2016_2018_2019_2020.ixodes_pacificus_county_status_2020,
+tick_table_2021.ixodes_scapularis_county_status_2021,tick_table_2021.ixodes_pacificus_county_status_2021
+FROM joined_tick_2016_2018_2019_2020
+FULL OUTER JOIN tick_table_2021
+ON joined_tick_2016_2018_2019_2020.fipscode = tick_table_2021.fipscode;
+
+/*Renaming completed joined table*/
+ALTER TABLE JOINED_TICK_2016_2018_2019_2020_2021
+  RENAME TO COMPLETE_JOINED_TICK_DATA;
