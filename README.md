@@ -13,8 +13,11 @@ In this project, we explore data related to the geographic distribution and prev
 
 ### Questions the team hopes to answer with the data
 o	Has the prevalence of ticks increased around the US?
+
 o	Can Machine-Learning be utilized to effectively predict tick-borne illness diagnoses?
+
 o	Are any symptoms in particular better indicators for potential tick-borne illness?
+
 #### Description of the data exploration phase of the project
 o	Explore data pertaining to tick prevalence in the different regions of the US and how that has changed over the years. Looking at which species carry which
     pathogens (which in-turn causes particular illnesses). 
@@ -26,6 +29,7 @@ o	Explore data pertaining to tick-borne illnesses in dogs – looking particular
     statistically significant in predicting tick-borne illness)
 
 Slides
+
     ---Presentations are drafted in Google Slides.
 o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
     (Potentially: )
@@ -42,6 +46,10 @@ o	Theoretical future study to correct for this: including more discrete data –
     (CBC), etc) [In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible
     within the scope of this project.]
     
+Visualization
+o The Database Entity Relationship Diagram(ERD) was created as a preliminary step to for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project [QuickDB Diagram]!
+o We pulled from our Database the tick borne illnesses against the 'FIPSCODE' and 'animial id' in each county and created a density map based on the categories of "Established", "No Record", and "Reported" as described below [Tickborne Dashboard]!
+o
 
 
 ### Individual Branches:
