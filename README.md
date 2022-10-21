@@ -64,14 +64,18 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
     - Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count(CBC), etc. - In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project).
     
 ### Visualization
-The Database Entity Relationship Diagram(ERD) was created as a preliminary step to for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project 
 
 #### Entity Relational Database
 ![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
-o We pulled from our Database the tick borne illnesses against the 'FIPSCODE' and 'animial id' in each county and created a density map based on the categories of "Established", "No Record", and "Reported" as described below
+o The Database Entity Relationship Diagram(ERD) was created as a preliminary step to for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project 
+
+#### Density Map of Established Tick Records
+![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/density_map.PNG)
+o A map was created to show the categories of tick records per county in the United States. 
 
 #### TickBorne dashboard
 ![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
+o We pulled from our Database the tick born illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a uniquely id by geographical area and 'animial id' in each county. From there and created a density map based on the categories of "Established", "No Record", and "Reported" 
 
 ### Individual Branches:
 - Joe B. - JB_dev;
