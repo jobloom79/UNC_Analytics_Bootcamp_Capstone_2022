@@ -11,11 +11,11 @@ In this project, we explore data related to the geographic distribution and prev
 
 ### Description of technologies and communication protocols:
 
----The communication protocols selected are 'Slack' and 'Zoom' meetings. Also a Kanban board is being used to track issues as we progress to stay on task. 
+- The communication protocols selected are 'Slack' and 'Zoom' meetings. Also a Kanban board is being used to track issues as we progress to stay on task. 
 
 -Tick data sourced from the CDC; Pet data sourced from a combination of animal shelter data, various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge.
 
----Technologies:
+- Technologies:
     - PostrgresSQL 
     - Google Colab
         - Pandas and Scikit-Learn
