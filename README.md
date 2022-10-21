@@ -48,10 +48,10 @@ o	Theoretical future study to correct for this: including more discrete data –
     
 Visualization
 o The Database Entity Relationship Diagram(ERD) was created as a preliminary step to for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project 
-####Entity Relational Database
+#### Entity Relational Database
 ![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
 o We pulled from our Database the tick borne illnesses against the 'FIPSCODE' and 'animial id' in each county and created a density map based on the categories of "Established", "No Record", and "Reported" as described below
-####TickBorne diagarm
+#### TickBorne diagarm
 ![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
 o
 
