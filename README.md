@@ -50,16 +50,15 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
 --- Presentations are drafted in Google Slides.
 
 
-o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-    (Potentially: )
-    Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. 
-    This will be using data set that only includes dogs that were tested
-    Using Unsupervised model to predict Negative vs. Positive test – this model will use the information from animals that were not tested  to group them into
-    “Possibly infected” and “Possibly uninfected”. 
-
 ### Machine Learning Model 
+- Description of preliminary data preprocessing
+    - Data in table will need to be cleaned - removing columns that do not contribute to the model, changing some columns to have consistent units, changing colunms to only include continuous data (converting categorical data using the get_dummies method), and finally scaling the data
+- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+    - The feature engineering is breifly touched on in the last point - by remoivng certain rows from the data  and changing their data types accordingly, we create the features for the model
+        - Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. This will be using data set that only includes dogs that were tested
+        - Using Unsupervised model to predict Negative vs. Positive test – this model will use the information from animals that were not tested  to group them into “Possibly infected” and “Possibly uninfected”. 
 - Description of how data was split into training and testing sets
-    For Supervised - 
+    - Supervised: the Scikit-learn library will be used to split the data 75%-25% for our training - testing groups
 - Explanation of model choice, including limitations and benefits
     - Limitations: Both include much categorical data – this could make the predictions weak because the discernment of the symptoms is mostly subjective
     - Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count(CBC), etc. - In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project).
