@@ -50,13 +50,6 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
 --- Presentations are drafted in Google Slides.
 
 
-o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-    (Potentially: )
-    Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. 
-    This will be using data set that only includes dogs that were tested
-    Using Unsupervised model to predict Negative vs. Positive test – this model will use the information from animals that were not tested  to group them into
-    “Possibly infected” and “Possibly uninfected”. 
-
 ### Machine Learning Model 
 - Description of preliminary data preprocessing
     - Data in table will need to be cleaned - removing columns that do not contribute to the model, changing some columns to have consistent units, changing colunms to only include continuous data (converting categorical data using the get_dummies method), and finally scaling the data
