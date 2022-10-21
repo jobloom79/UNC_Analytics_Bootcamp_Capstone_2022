@@ -26,7 +26,7 @@ o	Explore data pertaining to tick-borne illnesses in dogs – looking particular
     statistically significant in predicting tick-borne illness)
 
 Slides
----Presentations are drafted in Google Slides.
+    ---Presentations are drafted in Google Slides.
 o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
     (Potentially: )
     Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. 
