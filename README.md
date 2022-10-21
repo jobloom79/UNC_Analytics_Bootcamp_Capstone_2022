@@ -72,7 +72,7 @@ o We pulled from our Database the tick borne illnesses against the 'FIPSCODE'(Fe
 "Established", "No Record", and "Reported" as described below
 
 #### Density Map of Established Tick Records
-![Density Map]((https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/density_map.PNG)
+![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/density_map.PNG)
 o The following map shows the relationship between tick data based on the categories described in the Database Diagram per county in the United status.
 
 #### TickBorne dashboard
