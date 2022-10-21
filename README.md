@@ -11,34 +11,37 @@ In this project, we explore data related to the geographic distribution and prev
 
 ---For technologies it was decided to use 'PostrgresSQL' for our database and we will connect the database to 'Google Colab' to run a predicted model to determine the outcome of our comparisons.
 
-Questions the team hopes to answer with the data
+### Questions the team hopes to answer with the data
 o	Has the prevalence of ticks increased around the US?
 o	Can Machine-Learning be utilized to effectively predict tick-borne illness diagnoses?
 o	Are any symptoms in particular better indicators for potential tick-borne illness?
-Description of the data exploration phase of the project
-o	Explore data pertaining to tick prevalence in the different regions of the US and how that has changed over the years. Looking at which species carry which pathogens (which
-    in-turn causes particular illnesses). 
-    ---Sample Hypothesis: The changes in tick species migration effects the prevalence of certain tickborne illnesses in areas where they were previously uncommon – could lead
-       to lack of treatment options to target the different illnesses (i.e. increased mortality rate)
+#### Description of the data exploration phase of the project
+o	Explore data pertaining to tick prevalence in the different regions of the US and how that has changed over the years. Looking at which species carry which
+    pathogens (which in-turn causes particular illnesses). 
+    ---Sample Hypothesis: The changes in tick species migration effects the prevalence of certain tickborne illnesses in areas where they were previously uncommon
+    could lead to lack of treatment options to target the different illnesses (i.e. increased mortality rate)
 o	Explore data pertaining to tick-borne illnesses in dogs – looking particularly at the signs and symptoms. Also, looking at potential treatment options. 
     Description of the analysis phase of the project
-    ---Can run statistical analysis on the symptoms and how they relate to the the illness (essentially t-testing & chi2 testing to see if certain symptoms are statistically
-       significant in predicting tick-borne illness)
+    ---Can run statistical analysis on the symptoms and how they relate to the the illness (essentially t-testing & chi2 testing to see if certain symptoms are
+    statistically significant in predicting tick-borne illness)
 
 Slides
 ---Presentations are drafted in Google Slides.
-
 o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
     (Potentially: )
-    Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. This will be using data set that only includes dogs that were tested
-    Using Unsupervised model to predict Negative vs. Positive test – this model will use the information from animals that were not tested  to group them into “Possibly infected” and “Possibly uninfected”. 
+    Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. 
+    This will be using data set that only includes dogs that were tested
+    Using Unsupervised model to predict Negative vs. Positive test – this model will use the information from animals that were not tested  to group them into
+    “Possibly infected” and “Possibly uninfected”. 
 
 o	Description of how data was split into training and testing sets
     For Supervised - 
 o	Explanation of model choice, including limitations and benefits
     Limitations: Both include much categorical data – this could make the predictions weak because the discernment of the symptoms is mostly subjective
-o	Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count (CBC),
-    etc) [In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project.]
+o	Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count
+    (CBC), etc) [In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible
+    within the scope of this project.]
+    
 
 
 ### Individual Branches:
