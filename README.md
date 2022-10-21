@@ -49,7 +49,6 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
 
 --- Presentations are drafted in Google Slides.
 
-
 o	Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
     (Potentially: )
     Using Supervised model to predict Negative vs. Positive test – model will take in information for each of the symptoms in order to predict the test outcome. 
@@ -69,10 +68,16 @@ The Database Entity Relationship Diagram(ERD) was created as a preliminary step 
 
 #### Entity Relational Database
 ![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
-o We pulled from our Database the tick borne illnesses against the 'FIPSCODE' and 'animial id' in each county and created a density map based on the categories of "Established", "No Record", and "Reported" as described below
+o We pulled from our Database the tick borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard) which is unique to a geographical area, 'animial id' in each county and created a density map based on the categories of 
+"Established", "No Record", and "Reported" as described below
+
+#### Density Map of Established Tick Records
+![Density Map]((https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/density_map.PNG)
+o The following map shows the relationship between tick data based on the categories described in the Database Diagram per county in the United status.
 
 #### TickBorne dashboard
 ![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
+o The Dashboard is a compilation of the map view of the tick borne data, histogram of the count by year of two types of tick species, and a density map of tick data by 'FIPSCODE'.
 
 ### Individual Branches:
 - Joe B. - JB_dev;
@@ -80,3 +85,10 @@ o We pulled from our Database the tick borne illnesses against the 'FIPSCODE' an
 - Nichelle F. - Nichelle_dev; 
 - ChiChi U. - ML_dev_primary; 
 - Courtney B. - database_dev_second
+
+#### Source data
+https://data.world/datasets/pet
+https://data.world/cityofaustin/9t4d-g238
+https://rescuegroups.org/services/adoptable-pet-search-iframe/
+
+https://www.aspcapro.org/research/research-access-veterinary-care
