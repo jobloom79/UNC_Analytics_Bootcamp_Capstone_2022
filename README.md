@@ -63,6 +63,43 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
     - Limitations: Both include much categorical data – this could make the predictions weak because the discernment of the symptoms is mostly subjective.
     - Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count(CBC), etc. - In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project).
     
+#### Third Segment - Machine Learning objective questions
+Description of data preprocessing
+- First, columns in the dataset that did not hold pertinent information for the analysis were dropped - animal id, state, sex, animal type, breed class, and color.
+- Next, created a mask variable to filter out all the rows where the patients was 'Not Tested'
+- Changed values in RR column to be all numerical
+- Finally, 'age' column values needed to be changed into a number format
+    - converted all ages to years
+
+Description of feature engineering and the feature selection, including the decision-making process
+- Feature selection set as the remaining columns after the preprocessing steps - age, weight, temp, HR, RR, MM, CRT, Mentation, and the other signs/symptoms.
+    - These columns were chosen based off of what is known about how tick-borne diseases/illnesses manifest as physical symptoms
+- The target variable was set to the column that details whether the patient tested 'Positive' or "Negative'
+- Used the padas 'get_dummies' method to encode categorical data into numerical data
+    - this created many more columns - from 18 to 47
+
+Description of how data was split into training and testing sets
+- Used the sklearn model_selection method 'train_test_split' to split data 
+    - Deault 75% - 25% split
+- The data was also scaled to account for the larger feature values
+
+Explanation of model choice, including limitations and benefits
+- Chose to use Oversampling models to compensate for the imbalance in the data - data favors negative tests (statistically more negative tests are seen in practice)
+    - Benefits: By evening out the data, we can mitigate the chances for the model to be skewed towards the more populous event.
+    - Limitations: By duplicating events int he minority group, we risk increasing the liklihood of overfitting in the model.
+
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- In segment 2, one the naive oversampling method was tested. Here we have re-run the naive oversampling model with a new set of data that has more variation
+- Additionally, we run the SMOTE oversampling model in this segment to compare the peformance results.
+
+Description of how they have trained the model thus far, and any additional training that will take place
+- 
+
+Description of current accuracy score
+- The accuracy score for these models were 96% (RandomeOverSampling) and 95% (SMOTE).
+
+So far - at this point in the testing - the machine learning models are proving effective to answer our original questions
+    
 ### Visualization
 
 #### Entity Relational Database
