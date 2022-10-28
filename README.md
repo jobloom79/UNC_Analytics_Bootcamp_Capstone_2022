@@ -3,6 +3,7 @@
 
 In this project, we explore data related to the geographic distribution and prevalence of tick species which carry pathogens that cause illness/disease in the US. We also look into data pertaining to veterinary symptom records and tick-borne illness testing in order to develop a model that could potentially predict the likelihood of a tick-borne illness before testing by analyzing the symptoms. The goal of this study is to ascertain whether there is a relationship between the recently recorded new migrations of ticks across the United States, and a higher number of tick-borne illness cases in dogs. 
 
+![](/Images/Tick-Identification.jpeg)
 
 ### Overview of Project:
 
