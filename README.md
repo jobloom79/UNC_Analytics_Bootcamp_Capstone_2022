@@ -69,7 +69,7 @@ o	Are any symptoms in particular better indicators for potential tick-borne illn
 o The Database Entity Relationship Diagram(ERD) was created as a preliminary step for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project.
 
 #### Density Map of Established Tick Records
-![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/density_map.PNG)
+![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/texas_map.PNG)
 o A map was created to show the categories of tick records per county in the United States. 
 
 #### TickBorne dashboard
