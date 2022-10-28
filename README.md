@@ -93,7 +93,8 @@ Explanation of changes in model choice (if changes occurred between the Segment 
 - Additionally, we run the SMOTE oversampling model in this segment to compare the peformance results.
 
 Description of how they have trained the model thus far, and any additional training that will take place
-- 
+- The training data is fit to a logistic regression model
+    - We use this model because our goal is for the model to classify inputs into two groups. The logisstic regression model is best for classifications.
 
 Description of current accuracy score
 - The accuracy score for these models were 96% (RandomeOverSampling) and 95% (SMOTE).
