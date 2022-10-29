@@ -16,6 +16,8 @@ This will be a comparison of number of dogs that are inprocessed and outprocesse
 
 - Tick data sourced from the CDC; Pet data sourced from a combination of animal shelter data in Austin, TX, various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge.
 
+-The requirements file has been created in order to import all the libraries and dependencies for this project located in the project root directory [Requirements file]https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/requirements.txt
+
 - Technologies:
     - PostrgresSQL 
     - Google Colab
