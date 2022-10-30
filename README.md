@@ -117,6 +117,20 @@ o A map was created to show the categories of tick records per county in the Uni
 ![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
 o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a uniquely id by geographical area and 'Animial ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
 
+
+### Recommendation for future analysis:
+Potential research revolving around the migration of ticks and the many reasons that migration  may occur; examples including deforestation and climate change issues.
+Future analysis concerning other strains of tick-borne diseases as it pertains to canines; also look into the existence of such tick-borne diseases in other animal populations.
+
+### Items the team would have done differently:
+To look into procuring animal shelter data from other states and counties.
+Research other animals and how they have been affected throughout the years by these specific tick-borne diseases.
+
+
+
+
+
+
 ### Individual Branches:
 - Joe B. - JB_dev;
 - Denis A. - dang_dev; 
