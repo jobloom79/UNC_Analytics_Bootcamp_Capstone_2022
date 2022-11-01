@@ -1,0 +1,24 @@
+---
+title: "Tick-Borne_illness_stats"
+author: "ChiChi Ugochukwu"
+date: "2022-10-31"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+
+animalData <- read.csv(file = "ml_clean_animalData.csv")
+head(animalData)
+colnames(animalData)
+```
+
+```{r}
+str(animalData)
+```
+
+
+
+```{r}
+
+```
