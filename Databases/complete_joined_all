@@ -1,0 +1,5 @@
+CREATE TABLE COMPLETE_JOINED_ALL
+AS 
+SELECT *
+FROM clean_updated_animal_data
+FULL JOIN complete_joined_tick_data USING ("state");
