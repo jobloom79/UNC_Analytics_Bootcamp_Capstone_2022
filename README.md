@@ -104,7 +104,7 @@ Description of current accuracy score
 So far - at this point in the testing - the machine learning models are proving effective to answer our original questions
     
 ### Visualization
---- ![Tableau Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/~Tableau%20dashboard__19700.twbr)
+--- ![Tableau Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tableau dashboard.twb)
 
 #### Entity Relational Database
 ![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
