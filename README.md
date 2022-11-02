@@ -104,8 +104,6 @@ Description of current accuracy score
 So far - at this point in the testing - the machine learning models are proving effective to answer our original questions
     
 ### Visualization
---- ![Tableau Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tableau%20dashboard.twb)
-
 #### Entity Relational Database
 ![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
 o The Database Entity Relationship Diagram(ERD) was created as a preliminary step for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project.
@@ -115,8 +113,15 @@ o The Database Entity Relationship Diagram(ERD) was created as a preliminary ste
 o A map was created to show the categories of tick records per county in the United States. 
 
 #### TickBorne dashboard
-![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tableau%20dashboard.twb)
-o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a uniquely id by geographical area and 'Animial ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
+
+![Tableau Dashboard](https://public.tableau.com/app/profile/joseph.bloomfield/viz/Tableaudashboard_16673515630850/TickDashboard#1)
+
+o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a unique id by geographical area and 'Animial ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
+
+After further analysis and data cleaning we were able to use tickborne illnesses found by county with a positive and negative test value. the dashboard was updated to reflect the tickborne illness vs the number of ticks acroos the U.S. and specifically in texas
+
+
+![Dashboard screnshot](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
 
 
 ### Recommendation for future analysis:
