@@ -114,7 +114,7 @@ o A map was created to show the categories of tick records per county in the Uni
 
 #### TickBorne dashboard
 
-![Tableau Dashboard](https://public.tableau.com/app/profile/joseph.bloomfield/viz/Tableaudashboard_16673515630850/TickDashboard#1)
+[Tableau Dashboard](https://public.tableau.com/app/profile/joseph.bloomfield/viz/Tableaudashboard_16673515630850/TickDashboard#1)
 
 o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a unique id by geographical area and 'Animial ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
 
