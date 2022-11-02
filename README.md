@@ -115,7 +115,7 @@ o The Database Entity Relationship Diagram(ERD) was created as a preliminary ste
 o A map was created to show the categories of tick records per county in the United States. 
 
 #### TickBorne dashboard
-![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
+![Tickborne Dashboard](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tableau%20dashboard.twb)
 o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a uniquely id by geographical area and 'Animial ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
 
 
