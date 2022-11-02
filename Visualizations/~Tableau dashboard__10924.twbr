@@ -1349,7 +1349,7 @@
             <aggregation>Sum</aggregation>
             <precision>10</precision>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>state</remote-name>
@@ -1366,7 +1366,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>county</remote-name>
@@ -1383,7 +1383,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_scapularis_county_status_2016</remote-name>
@@ -1400,7 +1400,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_pacificus_county_status_2016</remote-name>
@@ -1417,7 +1417,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_scapularis_county_status_2018</remote-name>
@@ -1434,7 +1434,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_pacificus_county_status_2018</remote-name>
@@ -1451,7 +1451,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_scapularis_county_status_2019</remote-name>
@@ -1468,7 +1468,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_pacificus_county_status_2019</remote-name>
@@ -1485,7 +1485,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_scapularis_county_status_2020</remote-name>
@@ -1502,7 +1502,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_pacificus_county_status_2020</remote-name>
@@ -1519,7 +1519,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_scapularis_county_status_2021</remote-name>
@@ -1536,7 +1536,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ixodes_pacificus_county_status_2021</remote-name>
@@ -1553,7 +1553,7 @@
             <attributes>
               <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -1588,11 +1588,6 @@
       </column>
       <column caption='Categories of backlegged tick(2021)' datatype='string' name='[Categories of backlegged tick(2020) (copy)_2062085704517386258]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Number of  deer tick(2021) (copy)_2062085704521383962] == 28 THEN &quot;Reported WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 29 THEN &quot;No Records WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 30 THEN &quot;Established WT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-        <aliases>
-          <alias key='&quot;Established WT(2021)&quot;' value=' ' />
-          <alias key='&quot;No Records WT(2021)&quot;' value='  ' />
-          <alias key='&quot;Reported WT(2021)&quot;' value='   ' />
-        </aliases>
       </column>
       <column caption='Categories of backlegged tick(2016)' datatype='string' name='[Categories of deer tick(2016) (copy)_2062085704516136973]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Number of  deer tick(2016) (copy)_2062085704519495699] == 4 THEN &quot;Reported WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699]  == 5 THEN &quot;No Records WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699] == 6 THEN &quot;Established WT(2016)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -1608,11 +1603,6 @@
       </column>
       <column caption='Categories of deer tick(2021)' datatype='string' name='[Categories of tick status(2018) (copy) (copy)_2062085703792758787]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 25 THEN &quot;Reported DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 26 THEN &quot;No Records DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 27 THEN &quot;Established DT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-        <aliases>
-          <alias key='&quot;Established DT(2021)&quot;' value=' ' />
-          <alias key='&quot;No Records DT(2021)&quot;' value='  ' />
-          <alias key='&quot;Reported DT(2021)&quot;' value='   ' />
-        </aliases>
       </column>
       <column caption='Categories of deer tick(2019)' datatype='string' name='[Categories of tick status(2018) (copy)_2062085703792750594]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 13 THEN &quot;Reported DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 14 THEN &quot;No Records DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 15 THEN &quot;Established DT(2019)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -1644,7 +1634,7 @@
       <column caption='Number of  western tick(2018)' datatype='integer' name='[Number of  western tick(2016) (copy)_2062085704520339477]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='{FIXED [county] : MAX(&#13;&#10;IF [ixodes_pacificus_county_status_2018] = &apos;Reported&apos; THEN 10&#13;&#10;ELSEIF [ixodes_pacificus_county_status_2018] = &apos;No records&apos; THEN 11&#13;&#10;ELSEIF [ixodes_pacificus_county_status_2018] = &apos;Established&apos; THEN 12&#13;&#10;ELSE 0&#13;&#10;END&#13;&#10;)}' />
       </column>
-      <_.fcp.ObjectModelTableType.true...column caption='complete_joined_tick_data' datatype='table' name='[__tableau_internal_object_id__].[complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='complete_joined_tick_data' datatype='table' name='[__tableau_internal_object_id__].[complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='updated_animal_data1' datatype='table' name='[__tableau_internal_object_id__].[updated_animal_data1_E7A12D2BE3FA4F4DBCCA1618F349E57E]' role='measure' type='quantitative' />
       <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
       <column caption='Animal Id' datatype='string' name='[animal_id]' role='dimension' type='nominal' />
@@ -2041,7 +2031,7 @@
       </field-sort-info>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='complete_joined_tick_data' id='complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC'>
+          <object caption='complete_joined_tick_data' id='complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25'>
             <properties context=''>
               <relation connection='postgres.1udz0mm10h0psx16kkkmc0jyveo1' name='complete_joined_tick_data' table='[public].[complete_joined_tick_data]' type='table' />
             </properties>
@@ -2059,7 +2049,7 @@
               <expression op='[state (complete_joined_tick_data)]' />
             </expression>
             <first-end-point object-id='updated_animal_data1_E7A12D2BE3FA4F4DBCCA1618F349E57E' />
-            <second-end-point object-id='complete_joined_tick_data_C2E92171384F46A8B0FE4948FC2DF7AC' />
+            <second-end-point object-id='complete_joined_tick_data_571E0E1FB2AF4F849C15701D7AC60F25' />
           </relationship>
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -2092,16 +2082,16 @@
           </mapsources>
           <datasource-dependencies datasource='federated.18ff55m1y443fb1cdsfzk12igdgd'>
             <column caption='County' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
-            <column caption='Diarrhea' datatype='string' name='[diarrhea]' role='dimension' type='nominal' />
+            <column caption='Is 4Dx Tested' datatype='string' name='[is_4dx_tested]' role='dimension' type='nominal' />
             <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
-            <column-instance column='[diarrhea]' derivation='None' name='[none:diarrhea:nk]' pivot='key' type='nominal' />
+            <column-instance column='[is_4dx_tested]' derivation='None' name='[none:is_4dx_tested:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Longitude (generated)]' field-type='quantitative' max='-9721743.944054842' min='-12349871.785014762' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Latitude (generated)]' field-type='quantitative' max='4477346.377430384' min='2777562.1580417692' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Longitude (generated)]' field-type='quantitative' max='-9724992.139255641' min='-12223596.503418949' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Latitude (generated)]' field-type='quantitative' max='4513782.1525633456' min='2960864.6528585907' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='size' field='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:county:nk]' field-type='nominal' max-size='1' min-size='0.0748308' type='catsize' />
@@ -2138,8 +2128,8 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <color column='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:diarrhea:nk]' />
-              <size column='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:diarrhea:nk]' />
+              <color column='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:is_4dx_tested:nk]' />
+              <size column='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:is_4dx_tested:nk]' />
               <lod column='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:county:nk]' />
             </encodings>
             <style>
@@ -2172,19 +2162,9 @@
           <datasource-dependencies datasource='federated.18ff55m1y443fb1cdsfzk12igdgd'>
             <column caption='Categories of backlegged tick(2021)' datatype='string' name='[Categories of backlegged tick(2020) (copy)_2062085704517386258]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  deer tick(2021) (copy)_2062085704521383962] == 28 THEN &quot;Reported WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 29 THEN &quot;No Records WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 30 THEN &quot;Established WT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established WT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records WT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported WT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Categories of deer tick(2021)' datatype='string' name='[Categories of tick status(2018) (copy) (copy)_2062085703792758787]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 25 THEN &quot;Reported DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 26 THEN &quot;No Records DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 27 THEN &quot;Established DT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established DT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records DT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported DT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Number of  western tick(2021)' datatype='integer' name='[Number of  deer tick(2021) (copy)_2062085704521383962]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='{FIXED [county] : MAX(&#13;&#10;IF [ixodes_pacificus_county_status_2021] = &apos;Reported&apos; THEN 28&#13;&#10;ELSEIF [ixodes_pacificus_county_status_2021] = &apos;No records&apos; THEN 29&#13;&#10;ELSEIF [ixodes_pacificus_county_status_2021] = &apos;Established&apos; THEN 30&#13;&#10;ELSE 0&#13;&#10;END&#13;&#10;)}' />
@@ -2357,11 +2337,6 @@
             </column>
             <column caption='Categories of backlegged tick(2021)' datatype='string' name='[Categories of backlegged tick(2020) (copy)_2062085704517386258]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  deer tick(2021) (copy)_2062085704521383962] == 28 THEN &quot;Reported WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 29 THEN &quot;No Records WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 30 THEN &quot;Established WT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established WT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records WT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported WT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Categories of backlegged tick(2016)' datatype='string' name='[Categories of deer tick(2016) (copy)_2062085704516136973]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  deer tick(2016) (copy)_2062085704519495699] == 4 THEN &quot;Reported WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699]  == 5 THEN &quot;No Records WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699] == 6 THEN &quot;Established WT(2016)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -2377,11 +2352,6 @@
             </column>
             <column caption='Categories of deer tick(2021)' datatype='string' name='[Categories of tick status(2018) (copy) (copy)_2062085703792758787]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 25 THEN &quot;Reported DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 26 THEN &quot;No Records DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 27 THEN &quot;Established DT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established DT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records DT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported DT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Categories of deer tick(2019)' datatype='string' name='[Categories of tick status(2018) (copy)_2062085703792750594]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 13 THEN &quot;Reported DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 14 THEN &quot;No Records DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 15 THEN &quot;Established DT(2019)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -2834,11 +2804,6 @@
             </column>
             <column caption='Categories of backlegged tick(2021)' datatype='string' name='[Categories of backlegged tick(2020) (copy)_2062085704517386258]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  deer tick(2021) (copy)_2062085704521383962] == 28 THEN &quot;Reported WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 29 THEN &quot;No Records WT(2021)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2021) (copy)_2062085704521383962] == 30 THEN &quot;Established WT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established WT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records WT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported WT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Categories of backlegged tick(2016)' datatype='string' name='[Categories of deer tick(2016) (copy)_2062085704516136973]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  deer tick(2016) (copy)_2062085704519495699] == 4 THEN &quot;Reported WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699]  == 5 THEN &quot;No Records WT(2016)&quot;&#13;&#10;ELSEIF [Number of  deer tick(2016) (copy)_2062085704519495699] == 6 THEN &quot;Established WT(2016)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -2854,11 +2819,6 @@
             </column>
             <column caption='Categories of deer tick(2021)' datatype='string' name='[Categories of tick status(2018) (copy) (copy)_2062085703792758787]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 25 THEN &quot;Reported DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 26 THEN &quot;No Records DT(2021)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy) (copy) (copy)_2062085703801503752] == 27 THEN &quot;Established DT(2021)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
-              <aliases>
-                <alias key='&quot;Established DT(2021)&quot;' value=' ' />
-                <alias key='&quot;No Records DT(2021)&quot;' value='  ' />
-                <alias key='&quot;Reported DT(2021)&quot;' value='   ' />
-              </aliases>
             </column>
             <column caption='Categories of deer tick(2019)' datatype='string' name='[Categories of tick status(2018) (copy)_2062085703792750594]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 13 THEN &quot;Reported DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 14 THEN &quot;No Records DT(2019)&quot;&#13;&#10;ELSEIF [Number of  tick status(2016) (copy) (copy)_2062085703801491462] == 15 THEN &quot;Established DT(2019)&quot;&#13;&#10;ELSE &quot;Error in Data&quot;&#13;&#10;END' />
@@ -3974,7 +3934,7 @@ and 2 more (Combined)</run>
             <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone fixed-size='120' h='12448' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
             <zone h='82469' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16701'>
-              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='The recorded and unrecorded cases reveal Western ticks do not seem to exist in this part of the U.S.' captured-sheet='Slideshowview' id='1'>
                     <capturedDeltas>
@@ -4265,8 +4225,8 @@ and 2 more (Combined)</run>
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='3' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:diarrhea:nk]' type='color' />
-            <card pane-specification-id='3' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:diarrhea:nk]' type='size' />
+            <card pane-specification-id='3' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:is_4dx_tested:nk]' type='size' />
+            <card pane-specification-id='3' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:is_4dx_tested:nk]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -4293,7 +4253,7 @@ and 2 more (Combined)</run>
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='228'>
+          <strip size='283'>
             <card pane-specification-id='0' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Categories of deer tick(2016), Categories of deer tick(2018), Categories of deer tick(2020) and 2 more (Combined)]' type='color' />
             <card pane-specification-id='2' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[Categories of backlegged tick(2018), Categories of backlegged tick(2020), Categories of backlegged tick(2021) and 2 more (Combined)]' type='color' />
           </strip>
@@ -4323,19 +4283,19 @@ and 2 more (Combined)</run>
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='157'>
+          <strip size='160'>
             <card pane-specification-id='0' param='[federated.18ff55m1y443fb1cdsfzk12igdgd].[none:vomiting:nk]' type='color' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{D4FDA9EC-AA35-4B32-82B8-32FBFD49C889}' />
     </window>
-    <window class='dashboard' maximized='true' name='Storyboard'>
+    <window class='dashboard' name='Storyboard'>
       <viewpoints />
-      <active id='-1' />
+      <active id='2' />
       <simple-id uuid='{0ECF123B-FD29-4134-8C7D-9C361A8DCF17}' />
     </window>
-    <window class='dashboard' name='Tick Dashboard'>
+    <window class='dashboard' maximized='true' name='Tick Dashboard'>
       <viewpoints>
         <viewpoint name='Disease stats' />
         <viewpoint name='Overall Map'>
