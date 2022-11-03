@@ -150,6 +150,8 @@ For this project as a whole, there are many avenues of futre directions that can
     - also investigate the existence of such tick-borne diseases in other animal populations.
 - Analysis into the symptoms and how they relate to ilness detection.
 
+#### Things the team wishes we could have done differently
+As a whole, it seemed that time constraints were our biggest challenge in this project. If we could change anything, it would possibly be to take more time in acquiring the data, and dedicate more time to the analysis. Some of the questions we had at the onset of this project were left unanswered, and this could have been rectified with a bit more time and resources on hand.
 
 ### Visualization
 #### Density Map of Established Tick Records
