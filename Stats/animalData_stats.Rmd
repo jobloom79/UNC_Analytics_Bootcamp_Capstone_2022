@@ -2,7 +2,10 @@
 title: "Tick-Borne_illness_stats"
 author: "ChiChi Ugochukwu"
 date: "2022-10-31"
-output: html_document
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
 ---
 # Conducting Statistical Analysis on the Tick-Borne Illness Dataset
 In an effort to garner more information from our data, we run a logistic regression test to see how much influence the individual symptoms have on the test result.
