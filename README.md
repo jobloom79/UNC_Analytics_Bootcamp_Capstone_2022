@@ -69,7 +69,7 @@ After the steps detailed previously are completed, we then were able to feed the
 
 ![ROS](/Visualizations/Images/ROS_results.PNG)
 
-We see here that the precision and sensitivity scores from this model are also remarkably high.
+We see here that the precision and sensitivity scores from this model are also remarkably high for predicting both Positive and Negative results. We also see that the number of false negatives is much lower than that of false positives, which is important to not for the practical implications of this project.
 
 *SMOTE Oversampling*
 
@@ -77,7 +77,7 @@ For the SMOTE model, we ran the same preprocessing steps and received a balanced
 
 ![SMOTE](/Visualizations/Images/SMOTE_results.PNG)
 
-Again, we have garnered exceedingly high precision and recall scores from this model.
+Again, we have garnered exceedingly high precision and recall scores from this model. Here, we also note that the number of false negatives is slightly higher compared to false positives. This, along with the other scores, indicates to us that it is not the best model to use for this data.
 
 *RandomForest*
 
@@ -86,6 +86,8 @@ Again, we followed similar preprocessing steps before running this model. We rec
 |           |          |
 |-----------|----------|
 |![cm RF](/Visualizations/Images/RandomForest.png)|![class RF](/Visualizations/Images/RF_class_table.PNG)|
+
+The confusion matrix, precision, and recal scores further shows us that the model predicted every patient's test results correctly - leaving no false negatives or positives.
 
 Additionally, with the RandomForest model, we were able to calculate the features' importance scores, as shown below.
 
