@@ -140,6 +140,17 @@ Lastly, our unsupervised model proved to be inconclusive. Though it was interest
 
 In summation, these models were very insightful, and helped us get close to answering some of our initial questions.
 
+### Future Directionss
+For this project as a whole, there are many avenues of futre directions that can be taken. Some we have considered include:
+
+- Research revolving around the migration of ticks and the many reasons that migration may occur
+   - examples including deforestation and climate change issues
+   - serching if there is any correlation between tick-borne illness mortality and their migration
+- Analysis concerning other strains of tick-borne diseases as it pertains to canines
+    - also investigate the existence of such tick-borne diseases in other animal populations.
+- Analysis into the symptoms and how they relate to ilness detection.
+
+
 ### Visualization
 #### Density Map of Established Tick Records
 ![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/texas_map.PNG)
@@ -158,15 +169,6 @@ In summation, these models were very insightful, and helped us get close to answ
 ### Slides
 
 Presentation is presented with [Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing).
-
-### Recommendation for future analysis:
-Potential research revolving around the migration of ticks and the many reasons that migration  may occur; examples including deforestation and climate change issues.
-Future analysis concerning other strains of tick-borne diseases as it pertains to canines; also investigate the existence of such tick-borne diseases in other animal populations.
-
-### Items the team would have done differently:
-To investigate procuring animal shelter data from other states and counties.
-Research other animals and how they have been affected throughout the years by these specific tick-borne diseases.
-
 
 ### Individual Branches:
 - Joe B. - JB_dev;
