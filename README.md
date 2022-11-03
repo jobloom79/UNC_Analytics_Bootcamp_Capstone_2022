@@ -34,37 +34,83 @@ In this project, we explore data related to the geographic distribution and prev
 The communication protocols selected are 'Slack' and 'Zoom' meetings; a Kanban board was used to track issues as we progressed to stay on task. 
 
 ### Data Sources
-- Tick data sourced from the [CDC]()
-- Pet data sourced from a combination of [animal shelter data in Austin, TX](), various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge of veterinary practices.
+- Tick data sourced from the [CDC](https://www.cdc.gov/ticks/surveillance/TickSurveillanceData.html)
+- Pet data sourced from a combination of [animal shelter data in TX](https://data.world/cityofaustin/9t4d-g238), various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge of veterinary practices.
     
 
-### Description of the data exploration phase of the project
+### Data Exploration and Database Utilization
+We began our data exploration with 3 types csv files:
+- Tick survaillence datasets
+- Animal shelter intake datasets
+- Animal symptoms dataset
 
-- Explore data pertaining to tick prevalence in the different regions of the United States and how that has changed over the years. Looking at which species carry which pathogens (which in-turn causes particular illnesses). 
-    - Sample Hypothesis: The changes in tick species migration effects the prevalence of certain tick-borne illnesses in areas where they were previously uncommon could lead to lack of treatment options to target the different illnesses (i.e. increased mortality rate)
-- Explore data pertaining to tick-borne illnesses in dogs – looking particularly at the signs and symptoms. Also, looking at potential treatment options. 
+We started the data process by inspecting all the data ( categorizing the columns) and creating a ERD which we used to create and join our datasets into usable tables.
 
+![QuickDB Diagram](/Visualizations/QuickDBD-Capstone%20(1).png)
 
-### Description of the analysis phase of the project
-- Can run statistical analysis on the symptoms and how they relate to the the illness (essentially t-testing & chi2 testing to see if certain symptoms are statistically significant in predicting tick-borne illness)
-
-
-### Slides
-
---- Presentations are drafted in [Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing).
+The CSV files were imported into a database on PgAdmin, hosted on an Amazon AWS server, and aligned to a single table on the FIPSCode and State ids. Then, the tables were filtered to clean the data, which included removing columns from the tick data (data source) and the animal data (breed, color and name). These tables could then be used in training the models in machine learning. The tick tables were futher manipulated - differentiated by year - to create concise visualizations of tick migration in tableau.
 
 ### Machine Learning Model 
-- Description of preliminary data preprocessing
-    - Data in table will need to be cleaned - removing columns that do not contribute to the model, changing some columns to have consistent units, changing colunms to only include continuous data (converting categorical data using the get_dummies method), and finally scaling the data
-- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-    - The feature engineering is breifly touched on in the last point - by remoivng certain rows from the data  and changing their data types accordingly, we create the features for the model
-        - Using Supervised model to predict Negative vs. Positive test – model will receive an input for each symptom in order to predict the test outcome. This will use data set that only includes dogs that were tested
-        - Using Unsupervised model to predict Negative vs. Positive test – this model will receive an input from animals that were not tested to group them into “Possibly infected” and “Possibly uninfected”. 
+We tested both supervised and unsupervised algorithms to predict Negative vs. Positive test results. Our motivation for choosing the models that we did stemmed primarily from the type of data we had - specifically in the supervised models. The benefits of using the oversampling methods are that they are able to address imbalances in the data. Our data has more negative test results than positive - which reflects the frequencies seen in the real world - and so if we were to run our model without resampling, it would be biased towards the negative results and not be good at predicting positives. We decided against using undersampling models in order to prevent losing potentially important information. The RandomForest model is also a good model to use with imbalanced data and large datasets. For unsupervised learning, our primary goal was not only to make predictions and group the data points, but to use as a method to explore the data further.
+
+The datasets were loaded into Google Colab through a connection to the SQL databese server. Once loaded, the data in table was cleaned further - removing columns that do not contribute to the model, changing some columns to have consistent units, changing colunms to only include continuous data (converting categorical data using the get_dummies method), and finally scaling the data. 
+
+By remoivng certain rows from the data and changing their data types accordingly, we create the features for the models - those features being the symptoms.
+
+
+#### Results:
+_**Supervised**_
+
+The features for these models were the symptoms columns in the data, and the Target was defined to be the test result (i.e. Negative or Positive). Within the data, we see many more negative tests than positive test, therefore the data is resampled and scaled for each model. Additionally, the data is split 75%-25% between the training and testing sets, as is default with the scikit-learn `train-test-split()` function.
+
+*Naive Random Oversampling*
+
+After the steps detailed previously are completed, we then were able to feed the data to the model from our training set and then have it make predictions for our test set. This model produced a balanced accuracy score of 0.956 (96.5%). Below depicts the confusion matix and classification table from this model.
+
+|           |          |
+|-----------|----------|
+|![cm ROS]()|![class ROS]()|
+
+We see here that the precision and sensitivity scores from this model are also very high.
+
+*SMOTE Oversampling*
+
+For the SMOTE model, we ran the same preprocessing steps and received a balanced accuracy score of 0.949 (95%). Below we show the confusion matrix and classifcation table.
+
+|           |          |
+|-----------|----------|
+|![cm SMOTE]()|![class SMOTE]()|
+
+Again, we have garnered very high precision and recall scores from this model.
+
+*RandomForests*
+
+Again, we followed similar proprocessing steps before running this model. We received an accuracy score of 1.0 (100%) and the confusion matrix and classification tables are shown below.
+
+|           |          |
+|-----------|----------|
+|![cm RF]()|![class RF]()|
+
+_**Unsupervised**_
+
+The features for the model were created in the same steps detailed above.
+
+*KMeans*
+
+
+
+
+- Using Unsupervised model to predict Negative vs. Positive test – this model will receive an input from animals that were not tested to group them into “Possibly infected” and “Possibly uninfected”. 
 - Description of how data was split into training and testing sets
     - Supervised: the Scikit-learn library will be used to split the data 75%-25% for our training - testing groups
 - Explanation of model choice, including limitations and benefits
     - Limitations: Both include much categorical data – this could make the predictions weak because the discernment of the symptoms is mostly subjective.
     - Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count(CBC), etc. - In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project).
+
+### Statistical Analysis
+
+
+![Stats Results Plot](/Statistics/Test_result_prediction.png)
     
 #### Third Segment - Machine Learning objective questions
 Description of data preprocessing
@@ -106,7 +152,7 @@ So far - at this point in the testing - the machine learning models are proving 
     
 ### Visualization
 #### Entity Relational Database
-![QuickDB Diagram](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/QuickDBD-Capstone%20(1).png)
+
 o The Database Entity Relationship Diagram(ERD) was created as a preliminary step for the database portion. This allowed for a roadmap for the outcome of what our database would look like and how it would interact with the other moving parts of the project.
 
 #### Density Map of Established Tick Records
@@ -121,6 +167,9 @@ o We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Fe
 
 After further analysis and data cleaning we were able to use tickborne illnesses found by county with a positive and negative test value. the dashboard was updated to reflect the tickborne illness vs the number of ticks acroos the U.S. and specifically in texas
 
+### Slides
+
+--- Presentations are drafted in [Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing).
 
 ![Dashboard screnshot](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
 
