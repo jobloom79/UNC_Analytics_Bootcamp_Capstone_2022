@@ -1,1 +1,0 @@
-db_password= "UNCCapst0ne_2022"
