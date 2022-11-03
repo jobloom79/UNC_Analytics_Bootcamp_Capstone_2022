@@ -1,41 +1,42 @@
 # UNC_Analytics_Bootcamp_Capstone_2022
 ## Exploratory analysis of tick-borne illness in dogs
 
-In this project, we explore data related to the geographic distribution and prevalence of tick species which carry pathogens that cause illness/disease in the US. We also look into data pertaining to veterinary symptom records and tick-borne illness testing in order to develop a model that could potentially predict the likelihood of a tick-borne illness before testing by analyzing the symptoms. The goal of this study is to ascertain whether there is a relationship between the recently recorded new migrations of ticks across the United States, and a higher number of tick-borne illness cases in dogs. 
+### Purpose
+In this project, we explore data related to the geographic distribution and prevalence of tick species which carry pathogens that cause illness/disease in the US. We also look into veterinary data pertaining to symptom records and tick-borne illness testing. The goal of this study is to develop a model that could potentially predict the likelihood of a tick-borne illness before testing by analyzing the symptoms and ascertain whether there is a relationship between the recently recorded new migrations of ticks across the United States, and a higher number of tick-borne illness cases in dogs. 
 
-![](/Images/Tick-Identification.jpeg)
-
-### Overview of Project:
-
-This will be a comparison of number of dogs that are inprocessed and outprocessed in animal shelters in Austin, Texas against the number of tick-borne illneses as reported by the CDC. From the analysis the goal is to see the correlation, if any, and to predict the likelihood of such diseases in other states.
-
-
-### Description of technologies and communication protocols:
-
-- The communication protocols selected are 'Slack' and 'Zoom' meetings; a Kanban board is being used to track issues as we progress to stay on task. 
-
-- Tick data sourced from the CDC; Pet data sourced from a combination of animal shelter data in Austin, TX, various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge.
-
--The requirements file has been created in order to import all the libraries and dependencies for this project located in the project root directory [Requirements file]https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/requirements.txt
-
-- Technologies:
-    - PostrgresSQL 
-    - Google Colab
-        - Pandas and Scikit-Learn
-    - Excel
-        - VBA
-    - Amazon AWS
-    - Tableau
+- Questions the team hopes to answer with the data analysis:
+    - Has the population of ticks increased within the United States?
+    - Can Machine-Learning be utilized to effectively predict a tick-borne illness diagnoses?
+    - Are any symptoms in particular better indicators for potential tick-borne illness?
     
+![](Visualizations/Images/Tick-Identification.jpeg)
 
-### Questions the team hopes to answer with the data
+### Overview
+1. Collect geographical data on tick species and veterinary data on tick-borne illness testing and diagnoses
+2. Create a shared database to store data 
+3. Use machine learning algorithms to make predictions based on data
+4. Run statistical analysis on data
+5. Create visualizations to display tick data and machine learning results
 
-o	Has the population of ticks increased within the United States?
+### Technologies Utilized
+- Excel
+    - VBA
+- PostrgresSQL
+- Amazon AWS
+- Google Colab
+    - Pandas and Scikit-Learn packages primarily
+- R
+- Tableau
 
-o	Can Machine-Learning be utilized to effectively predict a tick-borne illness diagnoses?
+(The requirements file has been created in order to import all the libraries and dependencies for this project located in the project root directory: [Requirements file](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/requirements.txt))
 
-o	Are any symptoms in particular better indicators for potential tick-borne illness?
+### Communication Protocols
+The communication protocols selected are 'Slack' and 'Zoom' meetings; a Kanban board was used to track issues as we progressed to stay on task. 
 
+### Data Sources
+- Tick data sourced from the [CDC]()
+- Pet data sourced from a combination of [animal shelter data in Austin, TX](), various webpages detailing signs/symptoms of tick-borne illness in dogs, and some prior knowledge of veterinary practices.
+    
 
 ### Description of the data exploration phase of the project
 
