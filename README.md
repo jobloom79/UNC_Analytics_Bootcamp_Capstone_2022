@@ -67,9 +67,7 @@ The features for these models were the symptoms columns in the data, and the Tar
 
 After the steps detailed previously are completed, we then were able to feed the data to the model from our training set and then have it make predictions for our test set. This model produced a balanced accuracy score of 0.956 (96.5%). Below depicts the confusion matix and classification table from this model.
 
-|           |          |
-|-----------|----------|
-|![cm ROS]()|![class ROS]()|
+![ROS](/Visualizations/Images/ROS_results.PNG)
 
 We see here that the precision and sensitivity scores from this model are also very high.
 
@@ -77,9 +75,7 @@ We see here that the precision and sensitivity scores from this model are also v
 
 For the SMOTE model, we ran the same preprocessing steps and received a balanced accuracy score of 0.949 (95%). Below we show the confusion matrix and classifcation table.
 
-|           |          |
-|-----------|----------|
-|![cm SMOTE]()|![class SMOTE]()|
+![SMOTE](/Visualizations/Images/SMOTE_results.PNG)
 
 Again, we have garnered very high precision and recall scores from this model.
 
@@ -89,29 +85,56 @@ Again, we followed similar proprocessing steps before running this model. We rec
 
 |           |          |
 |-----------|----------|
-|![cm RF]()|![class RF]()|
+|![cm RF](/Visualizations/Images/RandomForest.png)|![class RF](/Visualizations/Images/RF_class_table)|
+
+Additionally with the RandomForest model, we were able to calculate the features' importance scores, as shown below.
+
+![feature importance](Visualizations/Images/ImportantCells.png)
+
+Here we see that of all of the features, Temperature was ranked highest at 0.366 (37%).
 
 _**Unsupervised**_
 
-The features for the model were created in the same steps detailed above.
+The features for the model were created slightly differently for this model. In our original dataset, we had three outcomes in the tested column: Negative, Positive, and Not Tested. For this model, we filtered our data to only include the 'Not Tested' patients and then created our features table from their symptom reports.
 
 *KMeans*
 
+For this model, we first needed to calculate principle components. It was decided to use 3 principle components, so the data was scaled and reduced accordingly. 
+
+With these principle components, we decide to first generate an elbow curve. Although one of the intial goals was to test the model to classify the data into two clusters, we wanted to see what the data suggested as the `k` value. The curve is depicted below
+
+![Elbow curve](/Visualizations/Images/elbow_curve.PNG)
+
+It is somewhat unclear where to define the elbow on this curve, but we determined it to be `k = 5`. As such, we decided to test both two clusters and five clusters with the model. The model generated predictions for both of these cases and then we plotted these predictions into a 3D plot.
+
+![2 clusters](/Visualizations/two_clusters.gif)
+
+![2 clusters](/Visualizations/five_clusters.gif)
 
 
 
-- Using Unsupervised model to predict Negative vs. Positive test – this model will receive an input from animals that were not tested to group them into “Possibly infected” and “Possibly uninfected”. 
-- Description of how data was split into training and testing sets
-    - Supervised: the Scikit-learn library will be used to split the data 75%-25% for our training - testing groups
-- Explanation of model choice, including limitations and benefits
-    - Limitations: Both include much categorical data – this could make the predictions weak because the discernment of the symptoms is mostly subjective.
     - Theoretical future study to correct for this: including more discrete data – possibly in the form of bloodwork values (i.e. chemistry panels, complete blood count(CBC), etc. - In vet practices, these tests would almost always be run along with the 4Dx test so the information should be readily available, just inaccessible within the scope of this project).
 
 ### Statistical Analysis
+We endeavored to include statistical analysis on the features as well. However, due to time constraints, we were not able to fully delve into this area as far as we needed to. Below, however, displays the results from the analysis we were able to run.
 
+We ran a general logistic regression model in R to see how well each feature is of a predictor for our target and garnered these results:
+
+![R results](/Visualizations/Images/R_stats_results.PNG)
+
+We see here that none of our features received a p-value below a significance level of 0.05. The program also gave us the following warning message:
+
+![R warning]()
+
+This warning suggests that within our data, there exists varaible that are too good at predicting our target. In other words, the feature, or features, are able to predict the target 100% of the time. This is further exemplified when we plotted the results of the logistic regression test.
 
 ![Stats Results Plot](/Statistics/Test_result_prediction.png)
-    
+
+We see here our data is perfectly split into the Positive and negative groups. In cantrast, we expected to see a result similar to this example:
+
+![example log](/Statistics/example_log_curve)
+
+
 #### Third Segment - Machine Learning objective questions
 Description of data preprocessing
 - First, columns in the dataset that did not hold pertinent information for the analysis were dropped - animal id, state, sex, animal type, breed class, and color.
