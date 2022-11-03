@@ -140,7 +140,7 @@ Lastly, our unsupervised model proved to be inconclusive. Though it was interest
 
 In summation, these models were very insightful, and helped us get close to answering some of our initial questions.
 
-### Future Directionss
+### Future Directions
 For this project as a whole, there are many avenues of futre directions that can be taken. Some we have considered include:
 
 - Research revolving around the migration of ticks and the many reasons that migration may occur
