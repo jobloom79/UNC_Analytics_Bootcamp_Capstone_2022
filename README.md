@@ -155,6 +155,8 @@ For this project as a whole, there are many avenues of futre directions that can
 #### Things the team wishes we could have done differently
 As a whole, it seemed that time constraints were our biggest challenge in this project. If we could change anything, it would possibly be to take more time in acquiring the data, and dedicate more time to the analysis. Some of the questions we had at the onset of this project were left unanswered, and this could have been rectified with a bit more time and resources on hand.
 
+Another thing that we explored was to integrate our ML model calculations into tableau. We suddcessfully imported the tableau extension api and enable in our tableau. The only problem was we would have had to re-write the code to include commands specific to the extension library.
+
 ### Visualization
 #### Density Map of Established Tick Records
 ![Density Map](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/texas_map.PNG)
@@ -164,7 +166,7 @@ As a whole, it seemed that time constraints were our biggest challenge in this p
 
 [Tableau Dashboard](https://public.tableau.com/app/profile/joseph.bloomfield/viz/Tableaudashboard_16673515630850/TickDashboard#1)
 
-![Dashboard screnshot](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
+![Dashboard screenshot](https://github.com/jobloom79/UNC_Analytics_Bootcamp_Capstone_2022/blob/customer_acceptance_test/Visualizations/Tickborne%20Dashboard.PNG)
 
 - We pulled from our database the tick-borne illnesses against the 'FIPSCODE'(Federal Information Processing Standard), which is a unique id by geographical area and 'Animal ID' from each county. Then, a density map was created based on the categories of "Established", "No Record", and "Reported". 
 
@@ -173,6 +175,9 @@ As a whole, it seemed that time constraints were our biggest challenge in this p
 ### Slides
 
 Presentation is presented with [Google Slides](https://docs.google.com/presentation/d/1Pb45MhAy0BsfN_zfLDYegSP01tUUemsadI_XG5e-pjA/edit?usp=sharing).
+
+### Video rehearsal
+[Presentation Practice](https://drive.google.com/file/d/1I3mpNoKj9TJvKvRpb3Iizn40qYGfjV2-/view?usp=share_link)
 
 ### Individual Branches:
 - Joe B. - JB_dev;
